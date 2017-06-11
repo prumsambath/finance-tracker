@@ -7,7 +7,6 @@ end
 
 
 gem 'rails', '~> 5.0.3'
-gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'bootstrap-sass', '3.3.7'
 gem 'sass-rails', '~> 5.0'
@@ -25,6 +24,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'sqlite3'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
