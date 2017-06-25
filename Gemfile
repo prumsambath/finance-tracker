@@ -19,6 +19,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'twitter-bootstrap-rails', '4.0.0'
 gem 'devise', '~> 4.3.0'
 gem 'devise-bootstrap-views', '~> 0.0.11'
+gem 'stock_quote', '~> 1.3.0'
+gem 'font-awesome-rails', '~> 4.7.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -30,6 +32,7 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'pry'
 end
 
 group :production do
